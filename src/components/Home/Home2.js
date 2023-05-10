@@ -30,7 +30,7 @@ function Home2() {
               <br />
               I also have fimilarities with the databases like;  &nbsp;
               <i>
-                <b className="purple">SQL, PostgreSQL, Firebase, MongoDB, Supabase </b> 
+                <b className="purple">SQL, PostgreSQL, Firebase, And MongoDB </b> 
               </i>
               <br />
               <br />
@@ -40,12 +40,15 @@ function Home2() {
                 also in areas related to{" "}
                 <b className="purple">
                   MERN Stack App.
+                </b> Or &nbsp;
+                <b className="purple">
+                 Full Stack App.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Nest.js</b> and
+              with
               <i>
                 <b className="purple">
                   {" "}
@@ -54,7 +57,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.JS</b>
+                <b className="purple"> React.JS , Next.JS ,Nest.JS, Node.JS, Express.JS</b>
               </i>
             </p>
           </Col>

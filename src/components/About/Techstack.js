@@ -1,17 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {GrGraphQl} from "react-icons/gr"
 import {
   DiJavascript1,
   DiReact,
   DiJava,
   DiMongodb,
+  DiNodejs,
   DiPostgresql,
   DiGit,
 } from "react-icons/di";
 import {
   SiNestjs,
+  SiExpress,
   SiFirebase,
+  SiNextdotjs,
+  SiMysql,
+  SiDocker,
   SiTypescript
 } from "react-icons/si";
 
@@ -23,6 +27,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNestjs />
@@ -43,7 +56,10 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <GrGraphQl />
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />

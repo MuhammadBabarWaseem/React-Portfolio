@@ -8,6 +8,7 @@ import ExpenseManagement from '../../Assets/Projects/ExpenseManagement.webp'
 import UsersApp from '../../Assets/Projects/UsersApp.webp'
 import NewsApp from "../../Assets/Projects/NewsApp.webp";
 import serviceApp from "../../Assets/Projects/serviceApp.webp"
+import LoginRegister from "../../Assets/Projects/about.png"
 
 
 function Projects() {
@@ -64,6 +65,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={LoginRegister}
+              isBlog={false}
+              title="Full Stack Auth"
+              description="I have created a full stack users auth app, in which React and Bulma CSS is used in frontend, and Nodejs, (JWT, Passowrd Hashing, Protected Route)  , ExpressJS, Sql is ued in Backend"
+              ghLink="https://github.com/MuhammadBabarWaseem/FullStack-Auth-UserApp"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={TextUtil}
               isBlog={false}
               title="Text Util App"
@@ -82,6 +93,7 @@ function Projects() {
             />
           </Col>
         </Row>
+         <p style={{ color: "white" }}>Rest Projects Are Available on My github</p>
       </Container>
     </Container>
   );
