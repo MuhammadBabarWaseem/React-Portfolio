@@ -15,9 +15,10 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiMysql,
-  SiDocker,
-  SiTypescript
+  SiTypescript,
+  SiApollographql 
 } from "react-icons/si";
+import { GrGraphQl } from "react-icons/gr";
 
 function Techstack() {
   return (
@@ -56,13 +57,16 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <GrGraphQl />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApollographql />
       </Col>
     </Row>
   );

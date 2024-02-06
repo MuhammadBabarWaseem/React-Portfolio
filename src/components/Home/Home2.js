@@ -1,13 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/abc.png";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiHackerrank } from "react-icons/si";
+
 
 function Home2() {
   return (
@@ -24,13 +24,13 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, JavaScript  </b>
+                <b className="purple"> C, Java, JavaScript, TypeScript  </b>
               </i>
               <br />
               <br />
               I also have fimilarities with the databases like;  &nbsp;
               <i>
-                <b className="purple">SQL, PostgreSQL, Firebase, And MongoDB </b> 
+                <b className="purple">SQL, PostgreSQL, Firebase, Supabase And MongoDB </b> 
               </i>
               <br />
               <br />
@@ -42,7 +42,7 @@ function Home2() {
                   MERN Stack App.
                 </b> Or &nbsp;
                 <b className="purple">
-                 Full Stack App.
+                Full Stack Web & App.
                 </b>
               </i>
               <br />
@@ -57,14 +57,12 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.JS , Next.JS ,Nest.JS, Node.JS, Express.JS</b>
+                <b className="purple"> React.JS , Next.JS , React Native, Nest.JS, Node.JS, Express.JS</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
         <Row>
@@ -86,12 +84,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/mbabarwaseem"
+                  href="https://www.hackerrank.com/profile/mbabarwaseem"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiHackerrank />
                 </a>
               </li>
               <li className="social-icons">

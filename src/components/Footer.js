@@ -6,6 +6,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiHackerrank } from "react-icons/si";
+
 
 function Footer() {
   let date = new Date();
@@ -32,14 +34,14 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://twitter.com/mbabarwaseem"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
+            <a
+                  href="https://www.hackerrank.com/profile/mbabarwaseem"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ color: "white" }}
+                >
+                  <SiHackerrank />
+                </a>
             </li>
             <li className="social-icons">
               <a
