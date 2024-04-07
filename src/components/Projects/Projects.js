@@ -30,12 +30,13 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={HBD}
               isBlog={false}
               title="Hotels By Day"
               description="Contributed significantly to the redevelopment of a hotel booking application for both Android and iOS platforms, focusing on UI/UX enhancements and seamless integration of essential features. This project involved a comprehensive redesign, API integration, and the incorporation of a webview for a seamless transition to the web within the app."
+              demoLink='https://play.google.com/store/apps/details?id=com.hotelsbyday.app&hl=en&gl=US&pli=1'
             />
           </Col>
           <Col md={4} className="project-card">
@@ -53,6 +54,7 @@ function Projects() {
               isBlog={false}
               title="Masha & The Bear App"
               description="Masha and the Bear web app with responsive design for seamless use on web and mobile. Features include authentication,  personalized video greetings, Stripe payments, SendGrid emails, API integration, and immersive audio."
+              
             />
           </Col>
           <Col md={4} className="project-card">
@@ -61,6 +63,7 @@ function Projects() {
               isBlog={false}
               title="Site App"
               description="Engaged in the frontend development of a tablet-based application using React Native, this project showcases a seamless and user-friendly interface catering to various functionalities. The focus lies on providing an optimal experience for users interacting with the app on tablet devices."
+              
             />
           </Col>
           <Col md={4} className="project-card">
@@ -77,7 +80,7 @@ function Projects() {
               isBlog={false}
               title="After The Tone"
               description="After The Tone is a unique project that offers a vintage twist to memory preservation. Users choose a personalized phone, set up a voicemail guestbook at an event location, and invite friends and family to leave heartfelt voicemail messages. The project culminates with users returning the phone and receiving a digital download of the recorded memories. An optional vinyl record adds a nostalgic touch, making it a charming and tangible keepsake for reliving special moments over time."
-            demoLink="https://www.afterthetone.co/"
+              demoLink="https://www.afterthetone.co/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -86,7 +89,7 @@ function Projects() {
               isBlog={false}
               title="Catstronaut Project"
               description="The project, built on Apollo GraphQL, provides a comprehensive exploration of GraphQL and Apollo basics. It covers essential elements such as understanding the GraphQL and Apollo ecosystem, designing a schema, and implementing an Apollo Server connected to a REST data source. The project extends to the practical application in a React app, incorporating features like resolvers, arguments, mutations, and best practices for shaping mutation responses and handling errors. Notably, the useMutation hook is employed to send mutations to the server. The practical application is exemplified through a cat app, where cards display detailed pages upon clicking, showcasing effective use of the useMutation hook for creating dynamic page views."
-            demoLink="https://lift-off-client-demo.netlify.app/"
+              demoLink="https://lift-off-client-demo.netlify.app/"
             />
           </Col>
           <Col md={4} className="project-card">
