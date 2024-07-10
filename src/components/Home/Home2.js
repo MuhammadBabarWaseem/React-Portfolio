@@ -30,19 +30,19 @@ function Home2() {
               <br />
               I also have fimilarities with the databases like;  &nbsp;
               <i>
-                <b className="purple">SQL, PostgreSQL, Firebase, Supabase And MongoDB </b> 
+                <b className="purple">SQL, PostgreSQL, Firebase, Supabase, MongoDB, Cosmos DB and DynamoDB </b>
               </i>
               <br />
               <br />
               My field of Interest's are building  &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web, MobileTechnologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  MERN Stack App.
+                  MERN and PERN Stack App.
                 </b> Or &nbsp;
                 <b className="purple">
-                Full Stack Web & App.
+                  Full Stack Web & App.
                 </b>
               </i>
               <br />
@@ -62,7 +62,7 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
         </Row>
         <Row>

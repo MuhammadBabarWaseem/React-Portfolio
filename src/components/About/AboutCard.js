@@ -8,12 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">M Babar Waseem </span>
-            from <span className="purple"> Karachi, Pakistan.</span>
-            <br />I am doing BSCS From <span className="purple">SMIU</span>
+            Greetings!, I am <span className="purple">M Babar Waseem </span>
+            a passionate individual hailing from <span className="purple"> Karachi, Pakistan.</span> My journey in the realm of <span className="purple">technology</span> is fueled by curiosity and a drive for excellence.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Beyond the world of <span className="purple"> coding</span>, I find joy in engaging with a diverse array of activities that enrich my life and broaden my perspectives.
           </p>
           <ul>
             <li className="about-activity">
